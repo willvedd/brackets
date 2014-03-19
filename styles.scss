@@ -2,8 +2,10 @@ $head: #FFFFFF;
 $mid: #FFFFFF;
 $bottom: #FFFFFF;
 $link: #B12323;
+$h2:#000000;
 $table1:#f9f9f9;
 $table2:#f7f7f7;
+$tablehover:#FFF0DF;
 $tablelabel:#777777;
 
 body{
@@ -12,12 +14,14 @@ body{
 }
 
 h1{
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Lobster', cursive;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-size:3em;
 }
 h2{
-	font-family: 'Hammersmith One', sans-serif;
+	color:$h2;
 }
 
 .wrapper{
@@ -45,14 +49,20 @@ h2{
 	font-weight: bold;
 }
 .scores{
+
 	a{
 		color:$link;
 		text-decoration: none;
 	}
 	td{
 		width: 12%;
-		padding:2%;
+		padding:2%; 
 		border: 1px solid #E4E4E4;
+		text-align:center;
+		font-size:1.25em;
+	}
+	.names{
+		text-align: left;
 	}
 	.table-label{
 		th{
@@ -131,7 +141,7 @@ th {
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #f5f5f5;
+  background-color: $tablehover;
 }
 table col[class*="col-"] {
   position: static;
