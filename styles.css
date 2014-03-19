@@ -1,11 +1,57 @@
-/* line 4, styles.scss */
-.wrapper {
-  margin-left: 20%;
-  margin-right: 20%;
+/* line 5, styles.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 80px;
 }
 
 /* line 10, styles.scss */
+h1 {
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* line 15, styles.scss */
+h2 {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+/* line 19, styles.scss */
+.wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* line 24, styles.scss */
+.head-wrapper {
+  background-color: white;
+}
+
+/* line 27, styles.scss */
+.mid-wrapper {
+  background-color: white;
+}
+
+/* line 30, styles.scss */
+.bottom-wrapper {
+  background-color: white;
+}
+
+/* line 34, styles.scss */
+.label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+/* line 39, styles.scss */
+.sponsor {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 44, styles.scss */
 .scores td {
   width: 12%;
   padding: 2%;
+  border: 1px solid #E4E4E4;
 }

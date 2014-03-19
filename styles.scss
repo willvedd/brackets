@@ -1,14 +1,49 @@
+$head: #FFFFFF;
+$mid: #FFFFFF;
+$bottom: #FFFFFF;
 
-
-
-.wrapper{
-	margin-left:20%;
-	margin-right:20%;
+body{
+	font-family: 'Lato', sans-serif;
+	margin-bottom:80px;
 }
 
+h1{
+	font-family: 'Hammersmith One', sans-serif;
+	text-align: center;
+	margin-top: 40px;
+}
+h2{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.wrapper{
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.head-wrapper{
+	background-color: $head;
+}
+.mid-wrapper{
+	background-color: $mid;
+}
+.bottom-wrapper{
+	background-color: $bottom;
+}
+
+.label{
+	margin-right:5px;
+	font-weight:bold;
+}
+
+.sponsor{
+	text-align:center;
+	font-weight: bold;
+}
 .scores{
 	td{
 		width: 12%;
 		padding:2%;
+		border: 1px solid #E4E4E4;
 	}
 }
