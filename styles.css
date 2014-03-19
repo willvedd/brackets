@@ -1,0 +1,11 @@
+/* line 4, styles.scss */
+.wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* line 10, styles.scss */
+.scores td {
+  width: 12%;
+  padding: 2%;
+}
