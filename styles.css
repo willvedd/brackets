@@ -1,10 +1,10 @@
-/* line 11, styles.scss */
+/* line 14, styles.scss */
 body {
   font-family: 'Lato', sans-serif;
   margin-bottom: 80px;
 }
 
-/* line 16, styles.scss */
+/* line 19, styles.scss */
 h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
@@ -13,62 +13,62 @@ h1 {
   font-size: 3em;
 }
 
-/* line 23, styles.scss */
+/* line 26, styles.scss */
 h2 {
   color: black;
 }
 
-/* line 27, styles.scss */
+/* line 30, styles.scss */
 .wrapper {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-/* line 32, styles.scss */
+/* line 35, styles.scss */
 .head-wrapper {
   background-color: white;
 }
 
-/* line 35, styles.scss */
+/* line 38, styles.scss */
 .mid-wrapper {
   background-color: white;
 }
 
-/* line 38, styles.scss */
+/* line 41, styles.scss */
 .bottom-wrapper {
   background-color: white;
 }
 
-/* line 42, styles.scss */
+/* line 45, styles.scss */
 .label {
   margin-right: 5px;
   font-weight: bold;
 }
 
-/* line 47, styles.scss */
+/* line 50, styles.scss */
 .sponsor {
   text-align: center;
   font-weight: bold;
 }
 
-/* line 53, styles.scss */
+/* line 56, styles.scss */
 .scores a {
   color: #b12323;
   text-decoration: none;
 }
-/* line 57, styles.scss */
+/* line 60, styles.scss */
 .scores td {
   width: 12%;
-  padding: 2%;
+  padding: 1.5%;
   border: 1px solid #E4E4E4;
   text-align: center;
   font-size: 1.25em;
 }
-/* line 64, styles.scss */
+/* line 67, styles.scss */
 .scores .names {
   text-align: left;
 }
-/* line 68, styles.scss */
+/* line 71, styles.scss */
 .scores .table-label th {
   text-align: center !important;
   height: 50px;
@@ -80,34 +80,34 @@ h2 {
 /*==============================================*/
 /*====== Scores Table (twitter bootstrap) ======*/
 /*==============================================*/
-/* line 83, styles.scss */
+/* line 86, styles.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 88, styles.scss */
+/* line 91, styles.scss */
 .table-hide {
   display: none;
 }
 
-/* line 91, styles.scss */
+/* line 94, styles.scss */
 table {
   max-width: 100%;
   background-color: transparent;
 }
 
-/* line 95, styles.scss */
+/* line 98, styles.scss */
 th {
   text-align: left;
 }
 
-/* line 98, styles.scss */
+/* line 101, styles.scss */
 .table {
   width: 100%;
 }
 
-/* line 106, styles.scss */
+/* line 109, styles.scss */
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -119,13 +119,13 @@ th {
   vertical-align: top;
 }
 
-/* line 111, styles.scss */
+/* line 114, styles.scss */
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #dddddd;
 }
 
-/* line 120, styles.scss */
+/* line 123, styles.scss */
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
@@ -135,17 +135,17 @@ th {
   border-top: 0;
 }
 
-/* line 123, styles.scss */
+/* line 126, styles.scss */
 .table > tbody + tbody {
   border-top: 2px solid #dddddd;
 }
 
-/* line 126, styles.scss */
+/* line 129, styles.scss */
 .table .table {
   background-color: #f9f9f9;
 }
 
-/* line 134, styles.scss */
+/* line 137, styles.scss */
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
@@ -155,26 +155,26 @@ th {
   padding: 5px;
 }
 
-/* line 139, styles.scss */
+/* line 142, styles.scss */
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #f7f7f7;
 }
 
-/* line 143, styles.scss */
+/* line 146, styles.scss */
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #fff0df;
 }
 
-/* line 146, styles.scss */
+/* line 149, styles.scss */
 table col[class*="col-"] {
   position: static;
   float: none;
   display: table-column;
 }
 
-/* line 152, styles.scss */
+/* line 155, styles.scss */
 table td[class*="col-"],
 table th[class*="col-"] {
   position: static;
@@ -182,7 +182,7 @@ table th[class*="col-"] {
   display: table-cell;
 }
 
-/* line 168, styles.scss */
+/* line 171, styles.scss */
 .table > thead > tr > td.active,
 .table > tbody > tr > td.active,
 .table > tfoot > tr > td.active,
@@ -198,7 +198,7 @@ table th[class*="col-"] {
   background-color: #f5f5f5;
 }
 
-/* line 174, styles.scss */
+/* line 177, styles.scss */
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
@@ -206,7 +206,7 @@ table th[class*="col-"] {
   background-color: #e8e8e8;
 }
 
-/* line 188, styles.scss */
+/* line 191, styles.scss */
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
 .table > tfoot > tr > td.success,
@@ -222,7 +222,7 @@ table th[class*="col-"] {
   background-color: #dff0d8;
 }
 
-/* line 194, styles.scss */
+/* line 197, styles.scss */
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
@@ -230,7 +230,7 @@ table th[class*="col-"] {
   background-color: #d0e9c6;
 }
 
-/* line 208, styles.scss */
+/* line 211, styles.scss */
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
 .table > tfoot > tr > td.info,
@@ -246,7 +246,7 @@ table th[class*="col-"] {
   background-color: #d9edf7;
 }
 
-/* line 214, styles.scss */
+/* line 217, styles.scss */
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
 .table-hover > tbody > tr.info:hover > td,
@@ -254,7 +254,7 @@ table th[class*="col-"] {
   background-color: #c4e3f3;
 }
 
-/* line 228, styles.scss */
+/* line 231, styles.scss */
 .table > thead > tr > td.warning,
 .table > tbody > tr > td.warning,
 .table > tfoot > tr > td.warning,
@@ -270,7 +270,7 @@ table th[class*="col-"] {
   background-color: #fcf8e3;
 }
 
-/* line 234, styles.scss */
+/* line 237, styles.scss */
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
 .table-hover > tbody > tr.warning:hover > td,
@@ -278,7 +278,7 @@ table th[class*="col-"] {
   background-color: #faf2cc;
 }
 
-/* line 248, styles.scss */
+/* line 251, styles.scss */
 .table > thead > tr > td.danger,
 .table > tbody > tr > td.danger,
 .table > tfoot > tr > td.danger,
@@ -294,7 +294,7 @@ table th[class*="col-"] {
   background-color: #f2dede;
 }
 
-/* line 254, styles.scss */
+/* line 257, styles.scss */
 .table-hover > tbody > tr > td.danger:hover,
 .table-hover > tbody > tr > th.danger:hover,
 .table-hover > tbody > tr.danger:hover > td,
@@ -303,7 +303,7 @@ table th[class*="col-"] {
 }
 
 @media (max-width: 767px) {
-  /* line 258, styles.scss */
+  /* line 261, styles.scss */
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -314,12 +314,12 @@ table th[class*="col-"] {
     -webkit-overflow-scrolling: touch;
   }
 
-  /* line 267, styles.scss */
+  /* line 270, styles.scss */
   .table-responsive > .table {
     margin-bottom: 0;
   }
 
-  /* line 275, styles.scss */
+  /* line 278, styles.scss */
   .table-responsive > .table > thead > tr > th,
   .table-responsive > .table > tbody > tr > th,
   .table-responsive > .table > tfoot > tr > th,
@@ -329,12 +329,12 @@ table th[class*="col-"] {
     white-space: nowrap;
   }
 
-  /* line 278, styles.scss */
+  /* line 281, styles.scss */
   .table-responsive > .table-bordered {
     border: 0;
   }
 
-  /* line 286, styles.scss */
+  /* line 289, styles.scss */
   .table-responsive > .table-bordered > thead > tr > th:first-child,
   .table-responsive > .table-bordered > tbody > tr > th:first-child,
   .table-responsive > .table-bordered > tfoot > tr > th:first-child,
@@ -344,7 +344,7 @@ table th[class*="col-"] {
     border-left: 0;
   }
 
-  /* line 294, styles.scss */
+  /* line 297, styles.scss */
   .table-responsive > .table-bordered > thead > tr > th:last-child,
   .table-responsive > .table-bordered > tbody > tr > th:last-child,
   .table-responsive > .table-bordered > tfoot > tr > th:last-child,
@@ -354,11 +354,50 @@ table th[class*="col-"] {
     border-right: 0;
   }
 
-  /* line 300, styles.scss */
+  /* line 303, styles.scss */
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
+}
+@font-face {
+  font-family: fontello;
+  src: url(fontello.ttf);
+}
+
+/* line 314, styles.scss */
+.award1:after {
+  content: '\e803';
+  color: #dbbf28;
+}
+
+/* line 318, styles.scss */
+.award2:after {
+  content: '\e803';
+  color: #b3b3b3;
+}
+
+/* line 322, styles.scss */
+.award3:after {
+  content: '\e803';
+  color: #b49050;
+}
+
+/* line 327, styles.scss */
+[class^="award"]:after, [class*="award-"]:after {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
 }
