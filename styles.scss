@@ -1,8 +1,6 @@
-$head: #FFFFFF;
-$mid: #FFFFFF;
-$bottom: #FFFFFF;
+$head: #DB3E3E;
+$head-text:#ffffff;
 $link: #B12323;
-$h2:#000000;
 $table1:#f9f9f9;
 $table2:#f7f7f7;
 $tablehover:#FFF0DF;
@@ -13,33 +11,24 @@ $bronze: #B49050;
 
 body{
 	font-family: 'Lato', sans-serif;
-	margin-bottom:80px;
+  margin: 0 0 80px 0;
 }
 
 h1{
 	font-family: 'Lobster', cursive;
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 5px;
-	font-size:3em;
-}
-h2{
-	color:$h2;
+	padding-top: 15px;
+  margin:0;
+	font-size: 2.8em;
 }
 
 .wrapper{
-	margin-left:10%;
-	margin-right:10%;
+  padding: 0 10%;
 }
 
 .head-wrapper{
 	background-color: $head;
-}
-.mid-wrapper{
-	background-color: $mid;
-}
-.bottom-wrapper{
-	background-color: $bottom;
+  color: $head-text;
 }
 
 .label{
@@ -50,6 +39,7 @@ h2{
 .sponsor{
 	text-align:center;
 	font-weight: bold;
+  padding: 0 0 20px 0;
 }
 .scores{
 
