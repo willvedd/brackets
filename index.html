@@ -40,18 +40,21 @@
 	<col>
 	<col>
 	</colgroup> 
+	  <thead>
 	  <tr class="table-label">
 	    <th></th>
-	    <th>1st Round</th>
-	    <th>Sweet 16</th>
-	    <th>Elite 8</th>
-	    <th>Final 4</th>
-	    <th>Final</th>
-	    <th>Champ</th>
-	    <th>Total</th>
+	    <th class="icon-sort">1st Round</th>
+	    <th class="icon-sort">Sweet 16</th>
+	    <th class="icon-sort">Elite 8</th>
+	    <th class="icon-sort">Final 4</th>
+	    <th class="icon-sort">Final</th>
+	    <th class="icon-sort">Champ</th>
+	    <th class="icon-sort">Total</th>
 	  </tr>
+	  </thead>
+	  <tbody>
 	  <tr>
-	    <td><a class="award3" target="_blank" href="brackets/ali_bracket.pdf">Ali</a></td>
+	    <td><a class="icon-award3" target="_blank" href="brackets/ali_bracket.pdf">Ali</a></td>
 	    <td>13</td>
 	    <td></td>
 	    <td></td>
@@ -61,7 +64,7 @@
 	    <td>13</td>
 	  </tr>
 	  <tr>
-	    <td><a class="award1" target="_blank" href="brackets/wulc_bracket.jpg">Andrew</a></td>
+	    <td><a class="icon-award1" target="_blank" href="brackets/wulc_bracket.jpg">Andrew</a></td>
 	    <td>14</td>
 	    <td></td>
 	    <td></td>
@@ -81,7 +84,7 @@
 	    <td>12</td>
 	  </tr>
 	  <tr>
-	    <td><a class="award3" target="_blank" href="brackets/biz_bracket.pdf">Biz</a></td>
+	    <td><a class="icon-award3" target="_blank" href="brackets/biz_bracket.pdf">Biz</a></td>
 	    <td>13</td>
 	    <td></td>
 	    <td></td>
@@ -91,7 +94,7 @@
 	    <td>13</td>
 	  </tr>
 	  <tr>
-	    <td><a class="award3" target="_blank" href="brackets/dolan_bracket.jpg">Dolan</a></td>
+	    <td><a class="icon-award3" target="_blank" href="brackets/dolan_bracket.jpg">Dolan</a></td>
 	    <td>13</td>
 	    <td></td>
 	    <td></td>
@@ -101,7 +104,7 @@
 	    <td>13</td>
 	  </tr>
 	  <tr>
-	    <td><a class="award1" target="_blank" href="brackets/berko_bracket.pdf">Jake ($)</a></td>
+	    <td><a class="icon-award1" target="_blank" href="brackets/berko_bracket.pdf">Jake ($)</a></td>
 	    <td>14</td>
 	    <td></td>
 	    <td></td>
@@ -180,7 +183,15 @@
 	    <td></td>
 	    <td>12</td>
 	  </tr>
+	  </tbody>
 	</table>
 </div>
 </body>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="tablesorter.js"></script>
+	<script>$(document).ready(function() 
+    { 
+        $(".scores").tablesorter(); 
+    } 
+); </script>
 </html>

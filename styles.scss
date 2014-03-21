@@ -6,7 +6,7 @@ $h2:#000000;
 $table1:#f9f9f9;
 $table2:#f7f7f7;
 $tablehover:#FFF0DF;
-$tablelabel:#777777;
+$tablelabel:#838383;
 $gold: #DBBF28;
 $silver: #B3B3B3;
 $bronze: #B49050;
@@ -74,6 +74,7 @@ h2{
 			background-color: $tablelabel !important;
 			color: #FFFFFF;
 			font-size: 1.2em;
+      cursor: pointer;
 		}
 	}
 }
@@ -310,21 +311,21 @@ table th[class*="col-"] {
   font-family: fontello;
   src: url(fontello.ttf);
 }
-
-.award1:after{
+.icon-sort:after { content: '\e801'; }
+.icon-award1:after{
    content: '\e803';
    color: $gold;
 }
-.award2:after{
+.icon-award2:after{
    content: '\e803'; 
    color: $silver;
 }
-.award3:after{
+.icon-award3:after{
    content: '\e803'; 
    color: $bronze;
 }
 
- [class^="award"]:after, [class*="award-"]:after {
+ [class^="icon-"]:after, [class*="icon-"]:after {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
